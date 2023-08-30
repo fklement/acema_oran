@@ -1,0 +1,57 @@
+Name;Domain;Description;Technique;tactic
+T-ADMIN-01;enterprise-attack;Denial of service against NFO/FOCOM;T1498;
+T-ADMIN-02;enterprise-attack;Abuse a O-Cloud administration service;T1552;credential-access
+T-ADMIN-02;enterprise-attack;Abuse a O-Cloud administration service;T1609;execution
+T-ADMIN-02;enterprise-attack;Abuse a O-Cloud administration service;T1204;execution
+T-GEN-01;enterprise-attack;Software flaw attack;T1068;privilege-escalation
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;T1078;defense-evasion
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;T1078;persistence
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;T1078;privilege-escalation
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;T1078;initial-access
+T-HW-01;enterprise-attack;Cross VM/Container side channel attacks;T1003;credential-access
+T-HW-01;enterprise-attack;Cross VM/Container side channel attacks;T1204;execution
+T-HW-01;enterprise-attack;Cross VM/Container side channel attacks;T1614;discovery
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1195;initial-access
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1525;persistence
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1610;defense-evasion
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1610;execution
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1612;defense-evasion
+T-IMG-01;enterprise-attack;VM/Container images tampering;T1204;execution
+T-IMG-02;enterprise-attack;Insecure channels with images repository;T1040;credential-access
+T-IMG-02;enterprise-attack;Insecure channels with images repository;T1040;discovery
+T-IMG-02;enterprise-attack;Insecure channels with images repository;T1040;execution
+T-IMG-03;enterprise-attack;Secrets disclosure in VM/Container images;T1600;defense-evasion
+T-IMG-03;enterprise-attack;Secrets disclosure in VM/Container images;T1195;initial-access
+T-IMG-03;enterprise-attack;Secrets disclosure in VM/Container images;T1552;credential-access
+T-IMG-04;enterprise-attack;Build image on VL;T1612;defense-evasion
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1613;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1040;credential-access
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1040;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1082;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1580;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1070;defense-evasion
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1609;execution
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1049;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1619;discovery
+T-O2-01;enterprise-attack;MitM attacks on O2 interface between O-Cloud and SMO;T1046;discovery
+T-OCAPI-01;enterprise-attack;MitM attacks on O-Cloud interface between VNFs/CNFs and the virtualization layer;T1040;credential-access
+T-OCAPI-01;enterprise-attack;MitM attacks on O-Cloud interface between VNFs/CNFs and the virtualization layer;T1040;discovery
+T-VL-01;enterprise-attack;VM/Container hyperjacking attack;T1036;defense-evasion
+T-VL-01;enterprise-attack;VM/Container hyperjacking attack;T1068;privilege-escalation
+T-VL-01;enterprise-attack;VM/Container hyperjacking attack;T1496;impact
+T-VL-02;enterprise-attack;Boot tampering;T1542;persistence
+T-VL-02;enterprise-attack;Boot tampering;T1495;impact
+T-VM-C-01;enterprise-attack;"Abuse of a privileged VM/Container""";T1016;discovery
+T-VM-C-02;enterprise-attack;VM/Container escape attack;T1611;privilege-escalation
+T-VM-C-02;enterprise-attack;VM/Container escape attack;T1538;discovery
+T-VM-C-03;enterprise-attack;VM/Container data theft;T1530;collection
+T-VM-C-03;enterprise-attack;VM/Container data theft;T1552;credential-access
+T-VM-C-03;enterprise-attack;VM/Container data theft;T1609;execution
+T-VM-C-03;enterprise-attack;VM/Container data theft;T1538;discovery
+T-VM-C-04;enterprise-attack;VM/Container migration attacks;T1040;credential-access
+T-VM-C-04;enterprise-attack;VM/Container migration attacks;T1040;discovery
+T-VM-C-04;enterprise-attack;VM/Container migration attacks;T1609;execution
+T-VM-C-04;enterprise-attack;VM/Container migration attacks;T1499;impact
+T-VM-C-04;enterprise-attack;VM/Container migration attacks;T1496;impact
+T-VM-C-05;enterprise-attack;Changing virtualization resource without authorization;T1578;defense-evasion
+T-VM-C-05;enterprise-attack;Changing virtualization resource without authorization;T1499;impact

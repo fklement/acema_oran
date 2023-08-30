@@ -1,0 +1,47 @@
+Name,Count,Tactic
+T-ADMIN-01,3,Impact
+T-ADMIN-02,9,Credential Access
+T-ADMIN-02,5,Execution
+T-GEN-01,1,Privilege Escalation
+T-GEN-02,5,Defense Evasion
+T-GEN-02,5,Initial Access
+T-GEN-02,5,Persistence
+T-GEN-02,5,Privilege Escalation
+T-HW-01,9,Credential Access
+T-HW-01,4,Execution
+T-HW-01,2,Discovery
+T-IMG-01,4,Initial Access
+T-IMG-01,1,Persistence
+T-IMG-01,2,Defense Evasion
+T-IMG-01,5,Execution
+T-IMG-02,1,Credential Access
+T-IMG-02,1,Discovery
+T-IMG-03,3,Defense Evasion
+T-IMG-03,4,Initial Access
+T-IMG-03,9,Credential Access
+T-IMG-04,1,Defense Evasion
+T-O2-01,7,Discovery
+T-O2-01,1,Credential Access
+T-O2-01,10,Defense Evasion
+T-O2-01,1,Execution
+T-OCAPI-01,1,Credential Access
+T-OCAPI-01,1,Discovery
+T-VL-01,9,Defense Evasion
+T-VL-01,1,Privilege Escalation
+T-VL-01,1,Impact
+T-VL-02,6,Defense Evasion
+T-VL-02,6,Persistence
+T-VL-02,1,Impact
+T-VM-C-01,2,Discovery
+T-VM-C-02,1,Privilege Escalation
+T-VM-C-02,1,Discovery
+T-VM-C-03,1,Collection
+T-VM-C-03,9,Credential Access
+T-VM-C-03,1,Execution
+T-VM-C-03,1,Discovery
+T-VM-C-04,1,Credential Access
+T-VM-C-04,1,Discovery
+T-VM-C-04,1,Execution
+T-VM-C-04,6,Impact
+T-VM-C-05,5,Defense Evasion
+T-VM-C-05,5,Impact
